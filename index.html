@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tugas 3 | javascript</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font -->
+  </head>
+  <body>
+    <table class="input-form">
+      <tr>
+        <td>
+          <form
+            action=""
+            id="input"
+            onsubmit="event.preventDefault();onFormSubmit();"
+            autocomplete="off"
+          >
+            <div class="nim">
+              <label for="">NIM :</label>
+              <input
+                type="text"
+                name="nim"
+                id="nim"
+                placeholder="masukkan Nim"
+              />
+            </div>
+            <div class="nama">
+              <label for="">Nama :</label>
+              <input
+                type="text"
+                name="nama"
+                id="nama"
+                placeholder="masukkan Nama"
+              />
+            </div>
+            <div class="button">
+                
+              <input type="submit" value="Simpan" />
+            </div>
+          </form>
+        </td>
+      </tr>
+      <tr>
+        <table class="list" id="datalist">
+          <thead>
+            <tr>
+              <th>NO.</th>
+              <th>NIM</th>
+              <th>Nama</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody id="tbody"></tbody>
+        </table>
+      </tr>
+    </table>
+
+    <script src="script.js"></script>
+  </body>
+</html>
