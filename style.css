@@ -28,6 +28,7 @@ body{
 }
 #input label{
     font-weight: 700;
+    font-size: 18px;
 }
 .input-form div {
   width: 500px;
@@ -36,8 +37,8 @@ body{
   align-items: center;
 }
 input[type="text" i] {
-  background-color: #0f6fc6;
-  border: 2px solid #095092;
+  background-color: #b4cce2;
+  border: 2px solid #5d91c2;
   padding: 6px;
   height: 30px;
   color: white;
@@ -49,6 +50,7 @@ input::placeholder {
   font-size: 12px;
   font-weight: 300;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
 }
 .input-form .button {
   width: 100%;
@@ -66,7 +68,7 @@ input[type="submit" i] {
 }
 
 input[type="submit" i]:hover{
-    background-color: #2789e4
+    background-color: #2483db
 }
 .list {
   width: 80%;
